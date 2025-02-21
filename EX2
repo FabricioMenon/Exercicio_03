@@ -1,0 +1,10 @@
+soma = 0
+
+while True:
+    numero = float(input("Digite um número (digite um número negativo para encerrar): "))
+    
+    if numero < 0:
+        break  # Encerra o loop se o número for negativo
+    soma += numero
+
+print(f"A soma dos números positivos digitados é: {soma:.2f}")
